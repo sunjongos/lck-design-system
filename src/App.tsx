@@ -19,6 +19,7 @@ function App() {
         {/* Header Section */}
         <header className="flex flex-col items-center justify-center text-center space-y-6">
           <Badge variant="cyan" className="animate-pulse">SYSTEM ONLINE v1.0.0</Badge>
+          <img src="/lck-logo.png" alt="LCK Lab Logo" className="w-24 h-24 md:w-32 md:h-32 rounded-2xl shadow-[0_0_30px_rgba(0,229,255,0.3)] object-cover bg-black/50 border border-white/10" />
           <div className="space-y-2">
             <h1 className="text-5xl md:text-7xl font-mono font-bold tracking-tighter text-white">
               LCK <span className="gradient-text from-lab-cyan to-blue-500">LAB</span>
