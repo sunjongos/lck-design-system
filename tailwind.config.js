@@ -12,7 +12,10 @@ export default {
           cyan: '#00E5FF',
           gold: '#D4AF37',
           gray: '#8892B0',
-          dark: '#020C1B'
+          dark: '#020C1B',
+          green: '#92C118',
+          blue: '#0087B6',
+          orange: '#F29D00'
         }
       },
       fontFamily: {
