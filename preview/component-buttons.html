@@ -1,0 +1,22 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="_frame.css">
+<style>
+.btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; height: 40px; padding: 0 20px; border-radius: 6px; font-family: var(--font-mono); font-size: 12px; font-weight: 500; letter-spacing: .22em; text-transform: uppercase; border: 1px solid; cursor: pointer; transition: all 240ms var(--ease-out); position: relative; overflow: hidden; }
+.btn-cyan { background: rgba(0,229,255,0.10); border-color: var(--lab-cyan); color: var(--lab-cyan); }
+.btn-cyan:hover { background: var(--lab-cyan); color: var(--lab-navy); box-shadow: var(--glow-cyan); }
+.btn-gold { background: rgba(212,175,55,0.10); border-color: var(--lab-gold); color: var(--lab-gold); }
+.btn-gold:hover { background: var(--lab-gold); color: var(--lab-navy); box-shadow: var(--glow-gold); }
+.btn-default { background: var(--lab-navy); border-color: var(--border-strong); color: var(--fg-0); }
+.btn-default:hover { background: #0f2345; }
+.btn-ghost { background: transparent; border-color: transparent; color: var(--fg-2); }
+.btn-ghost:hover { background: rgba(255,255,255,0.08); color: var(--fg-0); }
+</style></head>
+<body><div class="card">
+  <div class="t-overline">Buttons</div>
+  <div class="row" style="gap: 12px;">
+    <button class="btn btn-cyan">Execute Node ›</button>
+    <button class="btn btn-gold">Deploy Master</button>
+    <button class="btn btn-default">Cancel</button>
+    <button class="btn btn-ghost">Read Logs</button>
+  </div>
+  <div class="t-caption">cyan · gold · default · ghost</div>
+</div></body></html>

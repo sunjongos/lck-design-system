@@ -1,0 +1,19 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="_frame.css"></head>
+<body><div class="card">
+  <div class="t-overline">Motion — Scanline Sweep</div>
+  <style>
+    .sweep-demo { position: relative; overflow: hidden; background: rgba(0,229,255,0.10); border: 1px solid var(--lab-cyan); color: var(--lab-cyan); border-radius: 6px; padding: 12px 28px; font-family: var(--font-mono); font-size: 12px; font-weight: 500; letter-spacing: .22em; text-transform: uppercase; }
+    .sweep-demo::after { content: ''; position: absolute; left: 0; right: 0; top: -100%; height: 100%; background: linear-gradient(180deg, transparent, rgba(255,255,255,0.18), transparent); animation: sweep 2.2s var(--ease-out) infinite; pointer-events: none; }
+    @keyframes sweep { 0% { top: -100%; } 60% { top: 100%; } 100% { top: 100%; } }
+    .pulse-dot { width: 10px; height: 10px; border-radius: 50%; background: var(--lab-cyan); box-shadow: 0 0 12px var(--lab-cyan); animation: pulse 1.8s ease-in-out infinite; }
+    @keyframes pulse { 0%,100% { opacity: 1; transform: scale(1); } 50% { opacity: 0.4; transform: scale(0.85); } }
+  </style>
+  <div class="row" style="gap: 20px; align-items: center;">
+    <div class="sweep-demo">SCAN · LIVE</div>
+    <div class="row" style="gap: 8px; align-items: center;">
+      <span class="pulse-dot"></span>
+      <span class="t-overline" style="color: var(--lab-cyan);">PULSE DOT</span>
+    </div>
+  </div>
+  <div class="t-caption">1.5s sweep on hover · pulse on live badges · no bounces, no scale-press</div>
+</div></body></html>

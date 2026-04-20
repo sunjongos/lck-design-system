@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="48" viewBox="0 0 200 48" fill="none">
+  <g transform="translate(4 4)">
+    <rect x="0" y="0" width="40" height="40" rx="8" fill="#020C1B" stroke="#00E5FF" stroke-width="1"></rect>
+    <path d="M 8 10 L 8 26 C 8 30, 12 32, 16 32 L 32 32 L 32 28 L 16 28 C 14 28, 12 27, 12 26 L 12 10 Z" fill="#00E5FF"></path>
+    <circle cx="28" cy="14" r="5" fill="none" stroke="#D4AF37" stroke-width="2"></circle>
+  </g>
+  <text x="52" y="22" font-family="&#39;Roboto Mono&#39;, monospace" font-size="14" font-weight="700" letter-spacing="2" fill="#FFFFFF">LCK LAB</text>
+  <text x="52" y="38" font-family="&#39;Roboto Mono&#39;, monospace" font-size="8" letter-spacing="3" fill="#8892B0">RESEARCH // AI</text>
+</svg>

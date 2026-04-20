@@ -1,0 +1,47 @@
+/* Shared preview-card frame */
+@import url('../colors_and_type.css');
+
+* { box-sizing: border-box; }
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg-0);
+  color: var(--fg-0);
+  font-family: var(--font-sans);
+  min-height: 100vh;
+  /* Signature corner radials */
+  background-image:
+    radial-gradient(circle at 10% 0%, rgba(0, 229, 255, 0.05) 0%, transparent 45%),
+    radial-gradient(circle at 100% 100%, rgba(212, 175, 55, 0.035) 0%, transparent 45%);
+  background-attachment: fixed;
+}
+.card {
+  padding: 24px 28px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  justify-content: center;
+}
+.row { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; }
+.col { display: flex; flex-direction: column; gap: 10px; }
+.grid { display: grid; gap: 12px; }
+.swatch {
+  position: relative;
+  border-radius: var(--r-md);
+  border: 1px solid var(--border-default);
+  overflow: hidden;
+  box-shadow: var(--shadow-0);
+}
+.swatch-label {
+  font-family: var(--font-mono);
+  font-size: 10.5px;
+  letter-spacing: var(--tr-widest);
+  text-transform: uppercase;
+  color: var(--fg-2);
+  display: flex;
+  justify-content: space-between;
+  gap: 6px;
+}
+.swatch-label .hex { color: var(--fg-1); }
+.hairline { height: 1px; background: var(--border-default); }

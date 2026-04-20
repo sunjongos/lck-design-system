@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120" fill="none">
+  <defs>
+    <linearGradient id="lckGlow" x1="0" y1="0" x2="120" y2="120" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00E5FF"></stop>
+      <stop offset="1" stop-color="#0087B6"></stop>
+    </linearGradient>
+    <filter id="lckBlur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2"></feGaussianBlur>
+    </filter>
+  </defs>
+  <rect x="2" y="2" width="116" height="116" rx="22" fill="#020C1B" stroke="url(#lckGlow)" stroke-width="1.5"></rect>
+  <g transform="translate(60 60)">
+    
+    <path d="M -28 -28 L -28 12 C -28 22, -18 28, -8 28 L 28 28 L 28 20 L -8 20 C -14 20, -20 18, -20 12 L -20 -28 Z" fill="url(#lckGlow)"></path>
+    <path d="M 28 -24 A 26 26 0 1 0 28 24 L 28 16 A 18 18 0 1 1 28 -16 Z" fill="#D4AF37" opacity="0.95"></path>
+    <circle cx="-24" cy="-24" r="3" fill="#00E5FF"></circle>
+    <circle cx="24" cy="24" r="3" fill="#D4AF37"></circle>
+  </g>
+  
+  <path d="M 10 4 L 4 4 L 4 10" stroke="#00E5FF" stroke-width="1.5" fill="none"></path>
+  <path d="M 110 4 L 116 4 L 116 10" stroke="#00E5FF" stroke-width="1.5" fill="none"></path>
+  <path d="M 10 116 L 4 116 L 4 110" stroke="#D4AF37" stroke-width="1.5" fill="none"></path>
+  <path d="M 110 116 L 116 116 L 116 110" stroke="#D4AF37" stroke-width="1.5" fill="none"></path>
+</svg>

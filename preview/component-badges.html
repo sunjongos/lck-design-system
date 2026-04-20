@@ -1,0 +1,22 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="_frame.css">
+<style>
+.badge { display: inline-flex; align-items: center; gap: 6px; padding: 3px 10px; border-radius: 999px; font-family: var(--font-mono); font-size: 11px; font-weight: 600; letter-spacing: .2em; text-transform: uppercase; border: 1px solid transparent; }
+.badge-cyan { background: rgba(0,229,255,0.15); color: var(--lab-cyan); border-color: var(--border-cyan); }
+.badge-gold { background: rgba(212,175,55,0.15); color: var(--lab-gold); border-color: var(--border-gold); }
+.badge-green { background: rgba(146,193,24,0.15); color: var(--lab-green); border-color: rgba(146,193,24,0.30); }
+.badge-red { background: rgba(255,59,107,0.12); color: var(--lab-red); border-color: rgba(255,59,107,0.30); }
+.badge-outline { border: 1px solid var(--border-strong); color: var(--fg-0); }
+.badge-default { background: var(--fg-2); color: var(--lab-navy); }
+.dot { width: 6px; height: 6px; border-radius: 50%; background: currentColor; box-shadow: 0 0 6px currentColor; }
+</style></head>
+<body><div class="card">
+  <div class="t-overline">Badges / Status Tokens</div>
+  <div class="row" style="gap: 10px;">
+    <span class="badge badge-cyan"><span class="dot"></span>AI.READY</span>
+    <span class="badge badge-gold">PREMIUM.TIER</span>
+    <span class="badge badge-green"><span class="dot"></span>ONLINE</span>
+    <span class="badge badge-red">CRITICAL</span>
+    <span class="badge badge-outline">OFFLINE</span>
+    <span class="badge badge-default">DEFAULT</span>
+  </div>
+</div></body></html>
